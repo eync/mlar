@@ -15,3 +15,11 @@ temp/
 testrun/*
 .~lock*
 *.pkl
+
+robot_order_list.csv
+report.html
+log.html
+output.xml
+interactive_console_output.xml
+screenshots/*
+receipts/*
