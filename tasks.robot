@@ -16,11 +16,11 @@ Suite Teardown      Boolean dialog
 
 
 *** Variables ***
-${orderFileRename}              robot_order_list.csv
+${orderFileRename}              ${OUTPUT_DIR}${/}robot_order_list.csv
 ${orderRobotsUrl}               https://robotsparebinindustries.com/#/robot-order
-${screenshotsFolderPath}        screenshots
-${orderReceiptsFolderPath}      receipts
-${zipNameForReceipts}           all_receipts.zip
+${screenshotsFolderPath}        ${OUTPUT_DIR}${/}screenshots
+${orderReceiptsFolderPath}      ${OUTPUT_DIR}${/}receipts
+${zipNameForReceipts}           ${OUTPUT_DIR}${/}all_receipts.zip
 
 
 *** Tasks ***
