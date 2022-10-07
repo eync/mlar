@@ -16,4 +16,4 @@ This RPA project is for the Robocorp's certification course level II. The projec
 
 ## Dependencies
 - Python v3.9.1
-- RPA framework v17.0.1
+- RPA framework v17.4.0
